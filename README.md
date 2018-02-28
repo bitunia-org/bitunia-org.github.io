@@ -1,4 +1,5 @@
 # Bitunia
+![Bitunia Logo](/bitunia-logo.png)
 
 
 ## Channels
