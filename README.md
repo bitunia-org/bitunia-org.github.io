@@ -1,5 +1,5 @@
 # Bitunia
-![Bitunia Logo](/bitunia-logo.png  =120x)
+<img src="bitunia-logo.png" alt="Bitunia Logo" style="width: 120px;"/>
 
 
 ## Channels
