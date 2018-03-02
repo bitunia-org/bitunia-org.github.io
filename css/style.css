@@ -1,7 +1,65 @@
+@font-face {
+    font-family: 'Conv_CircularStd-Book';
+    src: url('../fonts/CircularStd-Book.eot');
+    src: local('☺'), url('../fonts/CircularStd-Book.woff') format('woff'), 
+        url('../fonts/CircularStd-Book.ttf') format('truetype'), 
+        url('../fonts/CircularStd-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_CircularStd-Medium';
+    src: url('../fonts/CircularStd-Medium.eot');
+    src: local('☺'), url('../fonts/CircularStd-Medium.woff') format('woff'), 
+        url('../fonts/CircularStd-Medium.ttf') format('truetype'), 
+        url('../fonts/CircularStd-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_CircularStd-Bold';
+    src: url('../fonts/CircularStd-Bold.eot');
+    src: local('☺'), url('../fonts/CircularStd-Bold.woff') format('woff'), 
+        url('../fonts/CircularStd-Bold.ttf') format('truetype'), 
+        url('../fonts/CircularStd-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_CircularStd-Black';
+    src: url('../fonts/CircularStd-Black.eot');
+    src: local('☺'), url('../fonts/CircularStd-Black.woff') format('woff'), 
+        url('../fonts/CircularStd-Black.ttf') format('truetype'), 
+        url('../fonts/CircularStd-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body{
-  font-family: 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23494949' fill-opacity='0.03' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+  background: url('bg.jpg') no-repeat;
+  background-size: 1600px;
+  background-position: center 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*background-position: bottom center;*/
+  /*background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23494949' fill-opacity='0.03' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");*/
+}
+
+h1{
+  font-family: 'Conv_CircularStd-Black', sans-serif;
+  font-size: 42px;
+}
+
+li{
+ font-family: 'Conv_CircularStd-Book', sans-serif;
+}
+.white-t-bg{
+    background: rgba(255,255,255,0.4);
 }
 .bb {
     border-bottom-style: solid;
