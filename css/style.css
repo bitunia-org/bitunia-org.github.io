@@ -52,7 +52,8 @@ body{
 
 h1{
   font-family: 'Conv_CircularStd-Black', sans-serif;
-  font-size: 42px;
+  font-size: 5em;
+  letter-spacing: -1px;
 }
 
 li{
